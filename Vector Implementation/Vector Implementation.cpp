@@ -20,7 +20,7 @@ public:
 	{
 		delete[] buffer;
 	}
-	void push_Back(int element)
+	void push_Back(const T& element)
 	{
 		if (size == capacity)
 		{
