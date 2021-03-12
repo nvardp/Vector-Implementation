@@ -8,7 +8,7 @@ public:
 		capacity = 2;
 		buffer = new int[capacity];
 	}
-	My_Vector(int first_element)
+	My_Vector(const T& first_element)
 	{
 		size = 0;
 		capacity = 2;
